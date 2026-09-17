@@ -6,7 +6,7 @@ from lms.errors import LMSError
 from lms.ui import brand_html, flash
 from lms.views import dashboard, records, reports_page, legal
 
-st.set_page_config(page_title="Coursebook",page_icon=str(ROOT/"assets/favicon.png"),layout="wide",initial_sidebar_state="auto")
+st.set_page_config(page_title="Coursebook",page_icon=str(ROOT/"assets/favicon.svg"),layout="wide",initial_sidebar_state="auto")
 st.html("<style>"+(ROOT/"assets/style.css").read_text()+"</style>")
 try:
     cfg=Settings.from_env()
@@ -28,7 +28,7 @@ legal_pages=[
     st.Page(legal.privacy,title="Privacy policy",url_path="privacy"),
 ]
 page=st.navigation(main_pages+legal_pages,position="hidden")
-st.set_page_config(page_title=f"{page.title} | Coursebook",page_icon=str(ROOT/"assets/favicon.png"))
+st.set_page_config(page_title=f"{page.title} | Coursebook",page_icon=str(ROOT/"assets/favicon.svg"))
 with st.sidebar:
     st.html(brand_html())
     st.html('<div class="cb-sidebar-section">WORKSPACE</div>')

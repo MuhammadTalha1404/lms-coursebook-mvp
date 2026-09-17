@@ -1,0 +1,8 @@
+# Use only for a NEW database volume. This never changes an initialized volume.
+services:
+  mysql:
+    volumes:
+      - ./database/sample_data.sql:/docker-entrypoint-initdb.d/20-sample-data.sql:ro
+  app:
+    environment:
+      APP_DATA_MODE: sample

@@ -1,0 +1,14 @@
+..................ssssssssssss.......................................... [ 47%]
+.ssssssssss............................................................. [ 94%]
+.........                                                                [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_mysql_integration.py:11: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [1] tests/test_mysql_integration.py:14: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [6] tests/test_mysql_integration.py:19: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [1] tests/test_mysql_integration.py:24: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [1] tests/test_mysql_integration.py:32: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [1] tests/test_mysql_integration.py:38: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [1] tests/test_mysql_integration.py:44: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [9] tests/test_streamlit_ui.py:11: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+SKIPPED [1] tests/test_streamlit_ui.py:21: Real MySQL tests are opt-in: set RUN_MYSQL_TESTS=1 and LMS_TEST_* credentials.
+131 passed, 22 skipped in 0.16s
